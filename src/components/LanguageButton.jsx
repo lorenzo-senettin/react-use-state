@@ -1,6 +1,6 @@
 import { buttonStyle } from "../styles/Buttons.js";
 
-const Button = ({ name, isActive, onClick }) => {
+const LanguageButton = ({ name, isActive, onClick }) => {
   return (
     <button style={buttonStyle(isActive)} onClick={onClick}>
       {name}
@@ -8,4 +8,4 @@ const Button = ({ name, isActive, onClick }) => {
   );
 };
 
-export default Button;
+export default LanguageButton;
